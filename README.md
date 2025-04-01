@@ -6,31 +6,29 @@
 
 Este repositório é dedicado à organização dos arquivos que compõem o projeto final da disciplina **Seminário III**.  
 
-O projeto utiliza a linguagem **C** para implementar diferentes conceitos, como **listas** e **manipulação de arquivos**, explorando técnicas de manipulação de dados e gerenciamento de memória dinâmica. Para visualizá-lo, por favor selecione a pasta `NEW_FORCA`
+O projeto utiliza a linguagem **HTML, CSS, JavaScript e React** para desenvolver o jogo de matemática.
 
 ## Integrantes
 
-- Carlos
-- João 
+- Carlos Eduardo Divino Souza Leonel
+- João Victor Freitas Ferreira
 - Leonardo Gabriel de Moraes Carvalho
 - Luiz Gustavo Martins
-- Otávio 
-- Washington
--  
+- Otávio Araujo de Lima
+- Washington Assis Freitas
 
 ## Professor
 
-- Rafael Martins
+- Harison Herman Silva
 
 ## Conteúdo do repositório  
 
 - Código-fonte do projeto principal.  
 - Arquivos auxiliares.
-- Documentação e instruções de uso.  
 
 ## Objetivo  
 
-Consolidar o aprendizado por meio da criação de um jogo interativo que demonstra o uso de estruturas dinâmicas e arquivos, na prática.
+Ensinar matemática básica para pessoas com deficiência auditiva de forma acessível e interativa. 
 
 ## Documentação
 
