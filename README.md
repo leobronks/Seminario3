@@ -1,18 +1,22 @@
-# Projeto Final - Estruturas de Dados Dinâmicas e Arquivos
+# Seminários III - Jogo de Matemática
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
-`Disciplina: Algoritmos e Estruturas de Dados II`
-`2024 - Semestre 2`
+`Disciplina: Seminários III`
+`2025 - Semestre 1`
 
-Este repositório é dedicado à organização dos arquivos que compõem o projeto final da disciplina **AED-II**.  
+Este repositório é dedicado à organização dos arquivos que compõem o projeto final da disciplina **Seminário III**.  
 
 O projeto utiliza a linguagem **C** para implementar diferentes conceitos, como **listas** e **manipulação de arquivos**, explorando técnicas de manipulação de dados e gerenciamento de memória dinâmica. Para visualizá-lo, por favor selecione a pasta `NEW_FORCA`
 
 ## Integrantes
 
-- Luiz Salles
-- Leonardo Carvalho
-- Maykel Tavares
+- Carlos
+- João 
+- Leonardo Gabriel de Moraes Carvalho
+- Luiz Gustavo Martins
+- Otávio 
+- Washington
+-  
 
 ## Professor
 
