@@ -32,4 +32,4 @@ Ensinar matemática básica para pessoas com deficiência auditiva de forma aces
 
 ## Documentação
 
-<li><a href="DOCUMENTACAO/conteudo.md"> Clicando aqui, você será redirecionado para o arquivo que detalha o projeto</a></li>
+<li><a href="conteudo.md"> Clicando aqui, você será redirecionado para o arquivo que detalha o projeto</a></li>
