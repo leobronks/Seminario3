@@ -1,0 +1,91 @@
+import React, { useState, useEffect } from "react";
+import "./Desafio.css";
+
+function Desafio({ operacao, onVoltar }) {
+  const [num1, setNum1] = useState(0);
+  const [num2, setNum2] = useState(0);
+  const [alternativas, setAlternativas] = useState([]);
+  const [mensagem, setMensagem] = useState("");
+  const [carregando, setCarregando] = useState(false);
+
+  // Gerar números e alternativas quando a tela abrir ou mudar de operação
+  useEffect(() => {
+    gerarNovaConta();
+  }, [operacao]);
+
+  const gerarNovaConta = () => {
+    const n1 = Math.floor(Math.random() * 10);
+    const n2 = Math.floor(Math.random() * 10);
+    setNum1(n1);
+    setNum2(n2);
+    setMensagem("");
+    gerarAlternativas(n1, n2);
+  };
+
+  const gerarAlternativas = (n1, n2) => {
+    const correta = n1 + n2; // Dependendo da operação, altere isso (adicao, subtracao, etc.)
+
+    // Criar 3 alternativas falsas
+    const alternativasFalsas = [];
+    while (alternativasFalsas.length < 3) {
+      const alternativa = Math.floor(Math.random() * 20); // gerar número aleatório entre 0 e 20
+      if (alternativasFalsas.indexOf(alternativa) === -1 && alternativa !== correta) {
+        alternativasFalsas.push(alternativa);
+      }
+    }
+
+    // Embaralhar as alternativas e incluir a correta
+    const todasAlternativas = [correta, ...alternativasFalsas];
+    todasAlternativas.sort(() => Math.random() - 0.5); // Embaralha as alternativas
+
+    setAlternativas(todasAlternativas);
+  };
+
+  const verificarResposta = (alternativaEscolhida) => {
+    const correta = num1 + num2; // Ajuste conforme a operação
+    if (alternativaEscolhida === correta) {
+      setMensagem("✅ Resposta correta! Parabéns!");
+    } else {
+      setMensagem(`❌ Ops! A resposta correta era ${correta}.`);
+    }
+
+    setCarregando(true);
+
+    // Espera 2 segundos antes de gerar nova conta
+    setTimeout(() => {
+      gerarNovaConta();
+      setCarregando(false);
+    }, 2000);
+  };
+
+  return (
+    <div className="desafio-container">
+      <h2>Desafio de {operacao}</h2>
+
+      <p>Quanto é {num1} + {num2}?</p>
+
+      <div style={{ marginTop: "20px" }}>
+        {alternativas.map((alternativa, index) => (
+          <button key={index} onClick={() => verificarResposta(alternativa)}>
+            {alternativa}
+          </button>
+        ))}
+      </div>
+
+      <div style={{ marginTop: "20px" }}>
+        <button onClick={onVoltar}>Voltar</button>
+      </div>
+
+      {mensagem && <p style={{ marginTop: "20px", fontWeight: "bold" }}>{mensagem}</p>}
+      
+      {carregando && (
+        <div className="carregando-barra">
+          Carregando próxima pergunta...
+          <div className="barra-animada"></div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default Desafio;
