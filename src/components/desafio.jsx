@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Desafio.css";
+import "./desafio.css";
 
 function Desafio({ operacao, onVoltar }) {
   const [num1, setNum1] = useState(0);

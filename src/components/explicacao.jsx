@@ -1,5 +1,5 @@
 import React from "react";
-import "./Explicacao.css";
+import "./explicacao.css";
 
 function Explicacao({ operacao, onContinuar, onVoltar }) {
   const textos = {
