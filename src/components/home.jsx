@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css"; // 👈 importa o estilo
+import "./Home.css"; // 👈 importa o estilo
 
 function Home({ onSelecionarOperacao }) {
   return (
