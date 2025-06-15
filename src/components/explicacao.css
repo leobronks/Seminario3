@@ -1,54 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background: linear-gradient(135deg, #e0f7fa, #80deea);*/
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background-image: url('./img/bg.svg');
+  background-size: 1000px 1000px;
+  background-repeat: repeat;
+  animation: Loop_Bg 16s linear infinite;
+  z-index: -1;
+}
+
+@keyframes Loop_Bg {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
 .explicacao-container {
-    max-width: 600px;
-    margin: 80px auto;
-    background-color: white;
-    padding: 40px 30px;
-    border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+  max-width: 600px;
+  margin: 80px auto;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.explicacao-container h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.explicacao-container p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.explicacao-container button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.explicacao-container button:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .explicacao-container {
+    margin: 40px 20px;
+    padding: 30px 20px;
   }
-  
-  .explicacao-container h2 {
-    color: #2c3e50;
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
-  .explicacao-container p {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
+
   .explicacao-container button {
-    background-color: #00796b;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    margin: 10px;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 8px 0;
   }
-  
-  .explicacao-container button:hover {
-    background-color: #004d40;
-    transform: scale(1.05);
-  }
-  
-  @media (max-width: 600px) {
-    .explicacao-container {
-      margin: 40px 20px;
-      padding: 30px 20px;
-    }
-  
-    .explicacao-container button {
-      width: 100%;
-      margin: 8px 0;
-    }
-  }
-  
+}
