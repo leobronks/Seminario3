@@ -48,3 +48,26 @@ Ensinar matemática básica para pessoas com deficiência auditiva de forma aces
 
 <li><a href="conteudo.md"> Clicando aqui, você será redirecionado para o arquivo que detalha o projeto</a></li>
 >>>>>>> 084b8acf99a2d0d3cb1285ee175e10e1a6cd0ef2
+
+## Registros da Apresentação
+
+![WhatsApp Image 2025-06-18 at 14 18 14](https://github.com/user-attachments/assets/808f2815-e118-4c22-907e-21ac46b37677)
+![WhatsApp Image 2025-06-18 at 14 18 13](https://github.com/user-attachments/assets/a1022f16-0848-4be7-ab1f-66af3b40cc2c)
+![WhatsApp Image 2025-06-18 at 14 18 12](https://github.com/user-attachments/assets/de4fdd5c-aede-4f82-a6ab-de3f4ffd214e)
+![WhatsApp Image 2025-06-18 at 14 18 11](https://github.com/user-attachments/assets/94d5ed66-1369-4430-82a4-41b19c1d8b63)
+![WhatsApp Image 2025-06-18 at 13 46 39](https://github.com/user-attachments/assets/ebdaba24-e78b-43af-a044-3e251671c429)
+![WhatsApp Image 2025-06-18 at 13 45 21](https://github.com/user-attachments/assets/25a57bf5-5078-4050-9fda-b1588f813fa1)
+![WhatsApp Image 2025-06-18 at 13 34 04](https://github.com/user-attachments/assets/2615b68d-ac91-49c7-9433-7d9e1cc4b6e9)
+![WhatsApp Image 2025-06-18 at 13 33 12](https://github.com/user-attachments/assets/800cbe16-a8ec-4b60-a494-f43dcb65d051)
+![WhatsApp Image 2025-06-18 at 13 32 42](https://github.com/user-attachments/assets/fc6d9597-ebed-4359-889e-ddb2e1c764e6)
+![WhatsApp Image 2025-06-18 at 13 24 25](https://github.com/user-attachments/assets/66c9e2ee-7823-4100-8be4-c45f67541094)
+
+
+
+
+
+
+
+
+
+
