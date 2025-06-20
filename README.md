@@ -35,6 +35,19 @@ Ensinar matemática básica para pessoas com deficiência auditiva de forma aces
 [Jogo de Matemática](https://matem-tica-tau.vercel.app/)
 
 
+##Registros do Software
+
+![image](https://github.com/user-attachments/assets/6c5b0a74-ebee-4681-8c47-f5cffa1fc7ef)
+![image](https://github.com/user-attachments/assets/34cb69f4-3651-4aa3-8201-970ab87d0d99)
+![image](https://github.com/user-attachments/assets/bd82ff44-0103-4085-a914-affaabfca1db)
+![image](https://github.com/user-attachments/assets/fdd44878-559b-4e21-a3ae-ceb717619a29)
+![image](https://github.com/user-attachments/assets/c81a790b-038d-48f2-8f46-340ee6b2f142)
+
+
+
+
+
+
 
 ## Registros da Apresentação
 
